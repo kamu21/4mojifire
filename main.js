@@ -1216,6 +1216,10 @@ const question = [
         q: "かっこいい",
         a: ["ハ", "ン", "サ", "ム"]
     },
+    {
+        q: "掃除用具",
+        a: ["ち", "り", "と", "り"]
+    },
 ];
 
 //top画面
@@ -1313,7 +1317,7 @@ function Judgment() {
         next.innerHTML = "<p style='font-size:3em;color:#008000;'>バッチリ😄　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
 
     } else {
-        next.innerHTML = "<p style='font-size:3em;color:#008080;'>ナイス😊　　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
+        next.innerHTML = "<p style='font-size:3em;color:#008080;'>オーケー😊　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
     }
 }
 
